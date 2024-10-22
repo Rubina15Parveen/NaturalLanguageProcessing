@@ -21,8 +21,8 @@
                         </p>
               </div>
               <div>
-                   2. Emotions_Sentiment_Analysis.ipynb 
-                  <br> This notebook focuses on a variety of NLP tasks using both classical and neural approaches:
+                   2. Emotions_Sentiment_Analysis.ipynb <br>
+                  <br> This notebook focuses on a variety of NLP tasks using both classical and neural approaches: <br>
                   <br>  (i) Classical Part-of-Speech Tagging
                               <p> Uses the Spacy library to perform statistical Part-of-Speech (POS) tagging. install: python -m spacy                                         download en_core_web_sm 
                               </p> 
