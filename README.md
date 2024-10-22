@@ -11,4 +11,16 @@ This repository contains a collection of small assignments designed to introduce
       <br>&ensp;Leverages GloVe embeddings to find the most similar words. GloVe embeddings are downloaded and extracted using the following commands:
         <br>&ensp;&ensp;!wget http://nlp.stanford.edu/data/glove.42B.300d.zip
         <br>&ensp;&ensp;!unzip glove.42B.300d.zip<br>
-      <br> &ensp;2. 
+      <br> &ensp;2. Emotions_Sentiment_Analysis.ipynb 
+      <br>&ensp;&ensp; This notebook focuses on a variety of NLP tasks using both classical and neural approaches:
+      <br> &ensp;&ensp;&ensp;&ensp; (i) Classical Part-of-Speech Tagging
+      <br> &ensp;&ensp;&ensp;&ensp; Uses the Spacy library to perform statistical Part-of-Speech (POS) tagging.
+      <br> &ensp;&ensp;&ensp;&ensp; install: python -m spacy download en_core_web_sm
+      <br> &ensp;&ensp;&ensp;&ensp; (ii) Neural Part-of-Speech Tagging
+      <br> &ensp;&ensp;&ensp;&ensp;  Utilizes the Transformers library for neural POS tagging. QCRI/bert-base-multilingual-cased-pos-english (a multilingual BERT model trained on the Penn Treebank dataset). Tags sentences using a neural network-based BERT model.
+      <br> &ensp;&ensp;&ensp;&ensp;  (iii) Neural Sentiment Analysis
+      <br> &ensp;&ensp;&ensp;&ensp;   Uses the Transformers library for sentiment analysis on tweets. Model: "cardiffnlp/twitter-xlm-roberta-base-sentiment" (an XLM-R model fine-tuned for multilingual sentiment analysis). Performs sentiment analysis on Twitter data.
+      <br> &ensp;&ensp;&ensp;&ensp;  (iv) Neural Emotion Detection
+      <br> &ensp;&ensp;&ensp;&ensp;   Uses the Transformers library for emotion detection on tweets. Model: "mrm8488/t5-base-finetuned-emotion" (a T5 model fine-tuned for emotion recognition). Predicts the emotion in each tweet based on Google's T5 architecture.
+      
+
