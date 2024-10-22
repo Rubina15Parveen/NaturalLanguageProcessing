@@ -1,5 +1,18 @@
-# Natural Language Processing 
-This repository contains a collection of small assignments designed to introduce the core concepts and techniques in Natural Language Processing (NLP). Each notebook showcases a specific NLP task, and the projects are structured to help build foundational understanding in the field.
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+</style>
+</head>
+<body>
+      <h1> Natural Language Processing </h1>
+      <div>
+            This repository contains a collection of small assignments designed to introduce the core concepts and techniques in Natural Language Processing (NLP). Each notebook showcases a specific NLP task, and the projects are structured to help build foundational understanding in the field.
+      </div>
 <br>  <h4> Files and Projects <h4/>
       <div>
       <br> &ensp;1. N_grams.ipynb
@@ -29,5 +42,4 @@ This repository contains a collection of small assignments designed to introduce
       <br> &ensp;&ensp;&ensp;&ensp;  (iv) Neural Emotion Detection
       <br> &ensp;&ensp;&ensp;&ensp;   Uses the Transformers library for emotion detection on tweets. Model: "mrm8488/t5-base-finetuned-emotion" (a T5 model fine-tuned for emotion recognition). Predicts the emotion in each tweet based on Google's T5 architecture.
       </div>
-      
-
+</body>
