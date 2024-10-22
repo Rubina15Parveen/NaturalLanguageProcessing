@@ -1,6 +1,6 @@
 # Natural Language Processing 
 This repository contains a collection of small assignments designed to introduce the core concepts and techniques in Natural Language Processing (NLP). Each notebook showcases a specific NLP task, and the projects are structured to help build foundational understanding in the field.
-<br> #### Files and Projects <br>
+<br>  <h3> Files and Projects <h3/> <br>
       <br> &ensp;1. N_grams.ipynb
       <br> &ensp;Implements trigram models using the corpus_for_language_model.txt file.
       <br> &ensp;Trains n-grams and calculates sentence probabilities using various techniques:
@@ -17,7 +17,10 @@ This repository contains a collection of small assignments designed to introduce
       <br> &ensp;&ensp;&ensp;&ensp; Uses the Spacy library to perform statistical Part-of-Speech (POS) tagging.
       <br> &ensp;&ensp;&ensp;&ensp; install: python -m spacy download en_core_web_sm
       <br> &ensp;&ensp;&ensp;&ensp; (ii) Neural Part-of-Speech Tagging
-      <br> &ensp;&ensp;&ensp;&ensp;  Utilizes the Transformers library for neural POS tagging. QCRI/bert-base-multilingual-cased-pos-english (a multilingual BERT model trained on the Penn Treebank dataset). Tags sentences using a neural network-based BERT model.
+                                          <a>
+                                                <br> &ensp;&ensp;&ensp;&ensp; Utilizes the Transformers library for neural POS tagging.                                                           QCRI/bert-base-multilingual-cased-pos-english (a multilingual BERT model trained on 
+                                                     the Penn Treebank dataset). Tags sentences using a neural network-based BERT model.
+                                          </a>
       <br> &ensp;&ensp;&ensp;&ensp;  (iii) Neural Sentiment Analysis
       <br> &ensp;&ensp;&ensp;&ensp;   Uses the Transformers library for sentiment analysis on tweets. Model: "cardiffnlp/twitter-xlm-roberta-base-sentiment" (an XLM-R model fine-tuned for multilingual sentiment analysis). Performs sentiment analysis on Twitter data.
       <br> &ensp;&ensp;&ensp;&ensp;  (iv) Neural Emotion Detection
