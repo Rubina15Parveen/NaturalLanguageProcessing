@@ -3,7 +3,9 @@
 <body>
       <h1> Natural Language Processing </h1>
             <div>
+                  <p>
                    This repository contains a collection of small assignments designed to introduce the core concepts and techniques in                         Natural Language Processing (NLP). Each notebook showcases a specific NLP task, and the projects are structured to help                      build foundational understanding in the field.
+                  </p>            
             </div>
       <h4> Files and Projects <h4/>
             <div>
