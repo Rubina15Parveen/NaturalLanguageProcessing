@@ -1,13 +1,5 @@
 <!DOCTYPE html>
-
-<html>
-<head>
-<style>
-body {
-  font-family: Arial, sans-serif;
-}
-</style>
-</head>
+<html> 
 <body>
       <h1> Natural Language Processing </h1>
       <div>
@@ -33,13 +25,13 @@ body {
       <br> &ensp;&ensp;&ensp;&ensp; Uses the Spacy library to perform statistical Part-of-Speech (POS) tagging.
       <br> &ensp;&ensp;&ensp;&ensp; install: python -m spacy download en_core_web_sm
       <br> &ensp;&ensp;&ensp;&ensp; (ii) Neural Part-of-Speech Tagging
-                                          <a>
-                                                <br> &ensp;&ensp;&ensp;&ensp; Utilizes the Transformers library for neural POS tagging.                                                           QCRI/bert-base-multilingual-cased-pos-english (a multilingual BERT model trained on 
-                                                     the Penn Treebank dataset). Tags sentences using a neural network-based BERT model.
-                                          </a>
+          <p> <br> &ensp;&ensp;&ensp;&ensp; Utilizes the Transformers library for neural POS tagging. Model :QCRI/bert-base-multilingual-cased-pos-english (a multilingual BERT model trained on the Penn Treebank dataset). Tags sentences using a neural network-based BERT model.
+          </p>
       <br> &ensp;&ensp;&ensp;&ensp;  (iii) Neural Sentiment Analysis
-      <br> &ensp;&ensp;&ensp;&ensp;   Uses the Transformers library for sentiment analysis on tweets. Model: "cardiffnlp/twitter-xlm-roberta-base-sentiment" (an XLM-R model fine-tuned for multilingual sentiment analysis). Performs sentiment analysis on Twitter data.
+      <br> &ensp;&ensp;&ensp;&ensp;        <p> Uses the Transformers library for sentiment analysis on tweets. Model: "cardiffnlp/twitter-xlm-roberta-base-sentiment" (an XLM-R model fine-tuned for multilingual sentiment analysis). Performs sentiment analysis on Twitter data. </p>
       <br> &ensp;&ensp;&ensp;&ensp;  (iv) Neural Emotion Detection
-      <br> &ensp;&ensp;&ensp;&ensp;   Uses the Transformers library for emotion detection on tweets. Model: "mrm8488/t5-base-finetuned-emotion" (a T5 model fine-tuned for emotion recognition). Predicts the emotion in each tweet based on Google's T5 architecture.
+      <br> &ensp;&ensp;&ensp;&ensp;   <p> Uses the Transformers library for emotion detection on tweets. Model: "mrm8488/t5-base-finetuned-emotion" (a T5 model fine-tuned for emotion recognition). Predicts the emotion in each tweet based on Google's T5 architecture.
+      </p>
       </div>
 </body>
+</html>
